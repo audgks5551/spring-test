@@ -2,6 +2,8 @@ server:
   port: 8080
 
 spring:
+  profiles:
+    active: default
   datasource:
     url: jdbc:mariadb://127.0.0.1:3307/post_db
     username: testuser
